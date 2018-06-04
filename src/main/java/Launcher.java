@@ -44,13 +44,6 @@ public class Launcher {
 
         WebElement logoutButton = driver.findElement(By.id("header_logout"));
         logoutButton.click();
-
-
-        /*List<WebElement> list = driver.findElements(By.className("b_algo"));
-        System.out.println(list.size());*/
-
-        /*List<WebElement> refers = driver.findElement(By.tagName("ol")).findElements(By.className("b_algo"));
-        System.out.println(refers.size());*/
     }
 
     public static WebDriver initChromeDriver (){
